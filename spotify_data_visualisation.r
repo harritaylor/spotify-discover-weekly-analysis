@@ -1,62 +1,9 @@
-# TODO:
-# - Perform EDA
-# - Develop ML model for classification
-# - Write report
-
-### Data Preprocessing ###
-
-setwd("/Users/hlt/Projects/University/emerging-tech/SpotifyPrefsPredict")
-
-# Load data and remove duplicates
-discover_weekly_data <- read.table("./dataset/archive_audio_features.csv", sep=",", header=TRUE)
-saved_playlist_data <- read.table("./dataset/liked_audio_features.csv", sep=",", header=TRUE)
-
-# Remove useless data
-set.seed(1234)
-
-# Subsample the data to have equal size datasets
-discover_weekly_data <- discover_weekly_data[sample(nrow(discover_weekly_data), 685), ]
-
-# Remove duplicates within the dataframe
-unique_weekly <- unique(discover_weekly_data)
-unique_saved <- unique(saved_playlist_data)
-
-# Identify which tracks are shared between the datasets
-merged_data <- rbind(unique_weekly,unique_saved)
-shared_tracks <- merged_data[duplicated(merged_data$id),]
-
-# Remove tracks from discover_weekly_archive that appear in both datasets
-discover_weekly_data <- unique_weekly[!(unique_weekly$id %in% shared_tracks$id),]
-saved_playlist_data <- unique_saved
-
-# Add column that specifies if I have saved the song to my personal library
-discover_weekly_data$saved <- 0
-saved_playlist_data$saved <- 1
-
-# Merge, remove ID column as it is no longer useful, then save to disk.
-dataset <- rbind(saved_playlist_data,discover_weekly_data)
-dataset$id <- NULL
-write.csv(dataset, file = "spotify_dataset_spring18.csv")
-
-# Clear workspace
-rm(list = ls())
-
 dataset <- read.table("spotify_dataset_spring18.csv", sep=",", header=TRUE)
 
 spotify_dataset <- dataset
 # Some tracks don't have audio features, most commonly recognised by no tempo value
 # As these tracks do not contribute to the model, remove them
 spotify_dataset <- spotify_dataset[!(spotify_dataset$tempo==0),]
-
-# Remove fields that won't be used
-spotify_dataset$mode <- NULL
-spotify_dataset$type <- NULL
-spotify_dataset$audio_features <- NULL
-spotify_dataset$track_href <- NULL
-spotify_dataset$analysis_url <- NULL
-spotify_dataset$X <- NULL
-spotify_dataset$key <- NULL
-spotify_dataset$uri <- NULL
 
 # Partition dataset into variables for visualisation
 
@@ -361,20 +308,3 @@ legend(2,5,
        pch=15, 
        cex=0.8)
 box()
-
-## Split dataset
-split = sample.split(spotify_dataset$saved, SplitRatio = 0.8)
-
-
-### Feature Scaling 
-# use z-score: Xs = (x - mean(x)/std_dev(x))
-newmin = -1
-newmax =  1
-oldmin <- min(tem)
-oldmax <- max(tem)
-newtem <- newmin + (tem-oldmin) * (newmax-newmin) / (oldmax-oldmin)
-# 1. Danceability
-
-
-
-
