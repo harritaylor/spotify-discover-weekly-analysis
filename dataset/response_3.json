@@ -1,0 +1,297 @@
+{
+  "href" : "https://api.spotify.com/v1/users/1152753071/playlists?offset=40&limit=20",
+  "items" : [ {
+    "collaborative" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/user/1152753071/playlist/0eJ3DJDWFgoYPGQC5MdL9Z"
+    },
+    "href" : "https://api.spotify.com/v1/users/1152753071/playlists/0eJ3DJDWFgoYPGQC5MdL9Z",
+    "id" : "0eJ3DJDWFgoYPGQC5MdL9Z",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/635eb4fe7aafe0bf7980f10617447c4f336f0dcfa0bf968e76d470c4ac57958e132dafcea3f42666ab3df7dc20b1a1ad906002a325097e813d3ff9bbc35c42aba722acea673341b5ecc0eec07042c010",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/635eb4fe7aafe0bf7980f10617447c4f336f0dcfa0bf968e76d470c4ac57958e132dafcea3f42666ab3df7dc20b1a1ad906002a325097e813d3ff9bbc35c42aba722acea673341b5ecc0eec07042c010",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/635eb4fe7aafe0bf7980f10617447c4f336f0dcfa0bf968e76d470c4ac57958e132dafcea3f42666ab3df7dc20b1a1ad906002a325097e813d3ff9bbc35c42aba722acea673341b5ecc0eec07042c010",
+      "width" : 60
+    } ],
+    "name" : "mood",
+    "owner" : {
+      "display_name" : "Harri Taylor",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/1152753071"
+      },
+      "href" : "https://api.spotify.com/v1/users/1152753071",
+      "id" : "1152753071",
+      "type" : "user",
+      "uri" : "spotify:user:1152753071"
+    },
+    "public" : false,
+    "snapshot_id" : "YtVtxmKWgVf2AInIKZTqMPqbdCRdqB5uu+jOAkH4sBEJyCYxfVYkaOBXLzB4U20A",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1152753071/playlists/0eJ3DJDWFgoYPGQC5MdL9Z/tracks",
+      "total" : 21
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1152753071:playlist:0eJ3DJDWFgoYPGQC5MdL9Z"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/user/classicmotownrecords/playlist/1VfFbVXZ9kq7yl7wPkgnp2"
+    },
+    "href" : "https://api.spotify.com/v1/users/classicmotownrecords/playlists/1VfFbVXZ9kq7yl7wPkgnp2",
+    "id" : "1VfFbVXZ9kq7yl7wPkgnp2",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://pl.scdn.co/images/pl/default/17cbd704f266fd09747b44f16b345619181f0e82",
+      "width" : null
+    } ],
+    "name" : "Motown | 2018 Playlist | Soul Music | Updated Weekly",
+    "owner" : {
+      "display_name" : "Classic Motown",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/classicmotownrecords"
+      },
+      "href" : "https://api.spotify.com/v1/users/classicmotownrecords",
+      "id" : "classicmotownrecords",
+      "type" : "user",
+      "uri" : "spotify:user:classicmotownrecords"
+    },
+    "public" : false,
+    "snapshot_id" : "K8IJn7bLER0Ufo+H5yAlaEFrXZi3u8HEyH+jIJfM8WU2FbQ/qnUOs+BGk6Axzsda",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/classicmotownrecords/playlists/1VfFbVXZ9kq7yl7wPkgnp2/tracks",
+      "total" : 74
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:classicmotownrecords:playlist:1VfFbVXZ9kq7yl7wPkgnp2"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/user/1152753071/playlist/5kTaSB9KmXqumv1GKJc9DD"
+    },
+    "href" : "https://api.spotify.com/v1/users/1152753071/playlists/5kTaSB9KmXqumv1GKJc9DD",
+    "id" : "5kTaSB9KmXqumv1GKJc9DD",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/1dca49488f1f67656e668c5c78d0ec52d919024523c0c4cc93036e77ab9ffef561b780f2f2840f34964b4822259d7a940d95105259d81fc0e23b474dd99751735dd2b3d9e708be4f2ca26573f975c978",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/1dca49488f1f67656e668c5c78d0ec52d919024523c0c4cc93036e77ab9ffef561b780f2f2840f34964b4822259d7a940d95105259d81fc0e23b474dd99751735dd2b3d9e708be4f2ca26573f975c978",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/1dca49488f1f67656e668c5c78d0ec52d919024523c0c4cc93036e77ab9ffef561b780f2f2840f34964b4822259d7a940d95105259d81fc0e23b474dd99751735dd2b3d9e708be4f2ca26573f975c978",
+      "width" : 60
+    } ],
+    "name" : "good vibes",
+    "owner" : {
+      "display_name" : "Harri Taylor",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/1152753071"
+      },
+      "href" : "https://api.spotify.com/v1/users/1152753071",
+      "id" : "1152753071",
+      "type" : "user",
+      "uri" : "spotify:user:1152753071"
+    },
+    "public" : false,
+    "snapshot_id" : "RNUc3tQpJT7AtTgDkJjQNmzt4p4ppKoC9IPCDkfL+VgxdKyrI4Vh+IHFgppsODhu",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1152753071/playlists/5kTaSB9KmXqumv1GKJc9DD/tracks",
+      "total" : 5
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1152753071:playlist:5kTaSB9KmXqumv1GKJc9DD"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/user/1152753071/playlist/1LBhSsw4VgpuIzaaESZnfH"
+    },
+    "href" : "https://api.spotify.com/v1/users/1152753071/playlists/1LBhSsw4VgpuIzaaESZnfH",
+    "id" : "1LBhSsw4VgpuIzaaESZnfH",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/3ceefeb424e28018bd5aab4c31704475688e1dcf",
+      "width" : 640
+    } ],
+    "name" : "Sinnerman – Nina Simone",
+    "owner" : {
+      "display_name" : "Harri Taylor",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/1152753071"
+      },
+      "href" : "https://api.spotify.com/v1/users/1152753071",
+      "id" : "1152753071",
+      "type" : "user",
+      "uri" : "spotify:user:1152753071"
+    },
+    "public" : true,
+    "snapshot_id" : "L/0qcVEUt5qO6cLmyW2lsed9e0y5+pKX6K+LxmFiwiOA06pkVaVDPHsRQwp/rZZ0",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1152753071/playlists/1LBhSsw4VgpuIzaaESZnfH/tracks",
+      "total" : 1
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1152753071:playlist:1LBhSsw4VgpuIzaaESZnfH"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/user/1152753071/playlist/0ij8KhQUE6qd9fG8u6CxrE"
+    },
+    "href" : "https://api.spotify.com/v1/users/1152753071/playlists/0ij8KhQUE6qd9fG8u6CxrE",
+    "id" : "0ij8KhQUE6qd9fG8u6CxrE",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/964b4822259d7a940d95105259d81fc0e23b474d",
+      "width" : 640
+    } ],
+    "name" : "best",
+    "owner" : {
+      "display_name" : "Harri Taylor",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/1152753071"
+      },
+      "href" : "https://api.spotify.com/v1/users/1152753071",
+      "id" : "1152753071",
+      "type" : "user",
+      "uri" : "spotify:user:1152753071"
+    },
+    "public" : true,
+    "snapshot_id" : "tuQFKMFiNyDLtJ0o0lRHLn74yLJuEjnAwG3LGOqKaCO6spmcIgDcALoFvw1lZdq1",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1152753071/playlists/0ij8KhQUE6qd9fG8u6CxrE/tracks",
+      "total" : 3
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1152753071:playlist:0ij8KhQUE6qd9fG8u6CxrE"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/user/1152753071/playlist/6GSmvx6uc01HuxL3u4P09r"
+    },
+    "href" : "https://api.spotify.com/v1/users/1152753071/playlists/6GSmvx6uc01HuxL3u4P09r",
+    "id" : "6GSmvx6uc01HuxL3u4P09r",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/15e165421ac0b3e2d82fb3e1c14c5c40c129bc6b86eeeeb720970bdd6a08314474651d1bb4f1ff03c5ddc2fe5b502021609254177f267255951c085fcb4d96b767740a9fbb065cce67434e2882bf5801",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/15e165421ac0b3e2d82fb3e1c14c5c40c129bc6b86eeeeb720970bdd6a08314474651d1bb4f1ff03c5ddc2fe5b502021609254177f267255951c085fcb4d96b767740a9fbb065cce67434e2882bf5801",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/15e165421ac0b3e2d82fb3e1c14c5c40c129bc6b86eeeeb720970bdd6a08314474651d1bb4f1ff03c5ddc2fe5b502021609254177f267255951c085fcb4d96b767740a9fbb065cce67434e2882bf5801",
+      "width" : 60
+    } ],
+    "name" : "big",
+    "owner" : {
+      "display_name" : "Harri Taylor",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/1152753071"
+      },
+      "href" : "https://api.spotify.com/v1/users/1152753071",
+      "id" : "1152753071",
+      "type" : "user",
+      "uri" : "spotify:user:1152753071"
+    },
+    "public" : false,
+    "snapshot_id" : "OrIOBMAcmOAqheDSbkfbd12ZGPQKBz6GeE57pi4giNeTyYREuWJYhUuZTpVM9din",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1152753071/playlists/6GSmvx6uc01HuxL3u4P09r/tracks",
+      "total" : 4
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1152753071:playlist:6GSmvx6uc01HuxL3u4P09r"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/user/1152753071/playlist/3neXI11SdE5q2cchyLQsVU"
+    },
+    "href" : "https://api.spotify.com/v1/users/1152753071/playlists/3neXI11SdE5q2cchyLQsVU",
+    "id" : "3neXI11SdE5q2cchyLQsVU",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/03307aa08ad3269d9fc454ef774345768bf446151086b03ae33713ed8f9778525c95cd2872762f976da547c77799bfa7ac3fd5ac8462c3b0bd1f0adbc48d3e3e9b0883b598cedbe36db912f7f1137a1e",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/03307aa08ad3269d9fc454ef774345768bf446151086b03ae33713ed8f9778525c95cd2872762f976da547c77799bfa7ac3fd5ac8462c3b0bd1f0adbc48d3e3e9b0883b598cedbe36db912f7f1137a1e",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/03307aa08ad3269d9fc454ef774345768bf446151086b03ae33713ed8f9778525c95cd2872762f976da547c77799bfa7ac3fd5ac8462c3b0bd1f0adbc48d3e3e9b0883b598cedbe36db912f7f1137a1e",
+      "width" : 60
+    } ],
+    "name" : "🌊",
+    "owner" : {
+      "display_name" : "Harri Taylor",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/1152753071"
+      },
+      "href" : "https://api.spotify.com/v1/users/1152753071",
+      "id" : "1152753071",
+      "type" : "user",
+      "uri" : "spotify:user:1152753071"
+    },
+    "public" : true,
+    "snapshot_id" : "l4Eb7jWws1uv6J4oOQChR5NfXi8ELt1TxD047nWGEIarV/Hjbb/AvhHBd2/UaSeR",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1152753071/playlists/3neXI11SdE5q2cchyLQsVU/tracks",
+      "total" : 12
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1152753071:playlist:3neXI11SdE5q2cchyLQsVU"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/user/1152753071/playlist/1ata5R8U5QLSmlji4v0dUD"
+    },
+    "href" : "https://api.spotify.com/v1/users/1152753071/playlists/1ata5R8U5QLSmlji4v0dUD",
+    "id" : "1ata5R8U5QLSmlji4v0dUD",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/05fedcc1bbd926148821eb136954eb8f0e32a2634210bdfd2a109c3b476bd7da9bc7b6668ebc836d51a05a6280ef1dd3f9b719ce7431cdfb1086a46b70ca2229ba3d46a3f766e07a8cc705178cf9384a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/05fedcc1bbd926148821eb136954eb8f0e32a2634210bdfd2a109c3b476bd7da9bc7b6668ebc836d51a05a6280ef1dd3f9b719ce7431cdfb1086a46b70ca2229ba3d46a3f766e07a8cc705178cf9384a",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/05fedcc1bbd926148821eb136954eb8f0e32a2634210bdfd2a109c3b476bd7da9bc7b6668ebc836d51a05a6280ef1dd3f9b719ce7431cdfb1086a46b70ca2229ba3d46a3f766e07a8cc705178cf9384a",
+      "width" : 60
+    } ],
+    "name" : "Liked from Radio",
+    "owner" : {
+      "display_name" : "Harri Taylor",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/1152753071"
+      },
+      "href" : "https://api.spotify.com/v1/users/1152753071",
+      "id" : "1152753071",
+      "type" : "user",
+      "uri" : "spotify:user:1152753071"
+    },
+    "public" : false,
+    "snapshot_id" : "whz9PQ0rRQX07wU6Vq3r6Tm4e+FN66zyxxqkvrVGpvT3bqp6O6+5Enirilv7Q7Lk",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/1152753071/playlists/1ata5R8U5QLSmlji4v0dUD/tracks",
+      "total" : 6
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:1152753071:playlist:1ata5R8U5QLSmlji4v0dUD"
+  } ],
+  "limit" : 20,
+  "next" : null,
+  "offset" : 40,
+  "previous" : "https://api.spotify.com/v1/users/1152753071/playlists?offset=20&limit=20",
+  "total" : 48
+}
