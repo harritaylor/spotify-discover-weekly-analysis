@@ -17,12 +17,31 @@
 	\section{Introduction}
 	The objective of this assignment is to use historic personal data from Spotify to develop a machine learning model that can identify which songs I am likely to love, based off of recommendations that Spotify's recommendation engine has given to me. [TODO] Intro to song recommendation and common techniques.
 	
-		\subsection{Spotify, Discover Weekly, Spotify's API}
+		\subsection{Spotify, Discover Weekly}
         In recent years Spotify 
 
         "Discover Weekly is a personalized playlist with 30 old and new songs Spotify thinks you’ve never heard of, updated every Monday. The songs are personalized for each user so no one user has the same Discover Weekly playlist (unless you freakishly have the exact same likes/dislikes/behaviors as someone else)." - "Your weekly mixtape of fresh music. Enjoy new discoveries and deep cuts chosen just for you. Updated every Monday, so save your favourites! - Spotify"
         Overview of Spotify Discover Weekly (https://medium.com/@ahipolito94/personalized-playlists-spotify-vs-apple-music-63f8c3df6891)
         [TODO] Intro to song recommendation, Spotify's approach https://developer.spotify.com/web-api/
-		
+        \subsection{Dataset Source}		
+        Spotify provides a RESTful API for developers interested in making applications for it's platform. Using this API it is possible to query the service for information about any of the data that they collect, including a user's information (provided they have provided authorization for this).  Song features are different from audio features - audio features explain the technical aspects of the song via timbre averages and covariancies. However, song features describe each song in a more semantic, human frienly way, and provide spotify's recommendation engine to easily cluster similar songs.
+    \section{Data Gathering and Preprocessing}
+        Using Spotify's developer API, I was able to collect the data required for this assignment using their OAuth protocal. I first cURL to fetch a JSON file containing all of the playlist IDs that I have. From this I extracted only the IDs that I am interested in for the assignment, and used the Python Requests library to download IDs of every song in each playlist. Finally, I used the Spotify's Song Features call on each of these songs to get song features for each song in the dataset. I formatted the data using python and wrote to disk 2 CSV files containing features and song IDs for all the songs in all of my saved playlists, and all of the songs in my discover weekly playlist.
+        Preprocessing the data required I remove some unnesseary fields such as URI, datatype, ..., and ... . I then removed all duplicates in each of the data sets, and compared the two individual datasets for common elements, of which I removed from the discover weekly archive (If a song appears in both the discover weekly and the saved playlists dataset, it means that I followed spotify's recommendation by adding a song that I like. I finally combined the dataset, adding an extra field named "saved", with binary value "1" for the saved dataset, and binary value "0" for the discover weekly dataset. 
+        This means that the problem is formulated as a binary classification problem. I am using the following song features for determining if a song is going to be saved to my playlists or not:
+        https://developer.spotify.com/web-api/object-model/#audio-features-object
+            \begin{enumerate}
+                    \item Dancability \\
+                          How easy is it to dance to the song
+                    \item Energy \\
+                            How energetic a song feels
+                    \item Loudness \\
+                            How loud the song sounds
+                    \item Speechiness \\
+                            What proportion of the song includes speech (spoken word:1,instrumental:0)
+                    \item acousticness \\ ...
+            \end{enumerate}
+
+            I ended up having to subsample as the datasets were not as even as I thought. 
 
 \end{document}
