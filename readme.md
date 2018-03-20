@@ -1,4 +1,4 @@
-# Analysis of historic personal Spotify data for predicting "liked" songs.
+# Evaluating Spotify's Discover Weekly performance using common machine learning tools
 ## CM3202 Emerging Technologies Coursework Spring 2018
 
 ### Introduction
