@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Problem Description}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Data Collection}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Spotify Song Features}{subsection.1.2}% 4
+\BOOKMARK [1][-]{section.2}{Explanation and preparation of the dataset}{}% 5
+\BOOKMARK [2][-]{subsubsection.2.0.1}{Spotify Dataset Variables}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Preprocessing}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Exploratory Data Analysis}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{Machine Learning Methods}{}% 9
+\BOOKMARK [1][-]{section.4}{Experimental Setup}{}% 10
+\BOOKMARK [1][-]{section.5}{Results}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Logistic Regressor}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.2}{K-Nearest Neighbours}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.3}{Linear Support Vector Machine}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.4}{Gaussian Kernel Support Vector Machine}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.5}{Decision Tree}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.6}{Performance Evaluation}{section.5}% 17

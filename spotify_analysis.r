@@ -213,11 +213,11 @@ plot(ksvm_roc,
      lty=5)
 plot(dt_roc,
      add=T,
-     col=rgb(0,0,0,0.8),
+     col=rgb(0.2,0.2,0.2,0.8),
      lwd=2,
      lty=5)
 abline(a=0, b=1)
-legend(0.6,0.2,
+legend(0.4,0.3,
        legend=c("Logistical Regression",
                 "k-NN",
                 "SVM",
@@ -225,5 +225,5 @@ legend(0.6,0.2,
                 "Decision Tree"),
        col=c("red", "blue", "green","purple","grey"), 
        pch=15, 
-       cex=0.5)
+       cex=0.7)
 
